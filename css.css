@@ -41,19 +41,35 @@ h3{
     
     }
 
-    h4 {
+    .bloc {
+        background: var(--color-primary);
+        color: #fff;
+    }
+    
+    .container {
+        padding: 3rem 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    }
+    
+    .bloc {
+        padding: 3rem;
+    }
+    
+    .bloc {
+        letter-spacing: 3px;
+        font-size: 2rem;
+    }
+    
+    .bloc p {
+        color: #eaeaea;
+    }
+    
         
 
         
     }
    
-.block-top-right {
-    border:1px solid black;
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    left: 10%;
-    bottom: 20%;
 
 
 
